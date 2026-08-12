@@ -1,6 +1,6 @@
 ---
 name: human-writing-review
-description: Review AI-like or overly polished prose and improve it into natural, human-written Japanese while preserving intended meaning and factual claims. Use for note posts, Notion articles, landing-page copy, business writing, owned-media articles, and similar prose when the user wants diagnosis, editing guidance, or a revised version.
+description: Review AI-like or overly polished prose and improve it into natural, non-formulaic Japanese prose while preserving intended meaning and factual claims. Use for note posts, Notion articles, landing-page copy, business writing, owned-media articles, and similar prose when the user wants diagnosis, editing guidance, or a revised version.
 ---
 
 # Human Writing Review
@@ -79,7 +79,7 @@ When rewriting:
 - preserve the writer's evident level of formality and brand voice
 - never invent facts, metrics, anecdotes, customers, quotes, evidence, or personal experience
 - never turn a review into factual verification unless the user separately requests that task
-- keep useful variation and imperfection when it supports a natural voice
+- preserve natural variation already present in the source when it supports the writer's voice
 
 If a proposed edit could materially alter meaning, prefer the safer wording or flag the assumption.
 
