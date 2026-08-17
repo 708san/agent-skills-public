@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"suite","name":"e2e-delete-guard-public-suite","description":"Temporary public Suite dependent fixture.","members":{"skills":[],"flows":[{"name":"e2e-delete-guard-public-flow-target","visibility":"public"}]}}
