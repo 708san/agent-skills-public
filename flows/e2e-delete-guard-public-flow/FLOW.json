@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"flow","name":"e2e-delete-guard-public-flow","steps":[{"id":"review","type":"exact_skill","skill":{"name":"human-writing-review","visibility":"public"},"depends_on":[],"required":true,"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.review.result"}}}
