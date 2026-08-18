@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"flow","name":"e2e-e-old-flow","description":"E old Flow","tags":["e2e"],"inputs":[],"steps":[{"id":"e","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-e-skill"},"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.e.result"}}}
