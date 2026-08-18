@@ -1,1 +1,0 @@
-{"schema_version":1,"kind":"flow","name":"e2e-life-public-flow","description":"Lifecycle public dependent","tags":["e2e"],"inputs":[],"steps":[{"id":"life","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-life-old"},"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.life.result"}}}
