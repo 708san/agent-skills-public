@@ -1,1 +1,48 @@
-{"schema_version":1,"kind":"flow","name":"e2e-v080-j-flow","description":"e2e-v080-j-old must remain in description","tags":["e2e-v080-j-old"],"metadata":{"note":"e2e-v080-j-old"},"inputs":[],"steps":[{"id":"j-struct","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-v080-j-old"},"input_handoff":{},"expected_output":["result"]},{"id":"j-cap","type":"capability","required":false,"depends_on":[],"capability":{"query":"e2e-v080-j-old","compose":false},"input_handoff":{},"expected_output":["cap"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.j-struct.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-v080-j-flow",
+  "description": "e2e-v080-j-old must remain in description",
+  "tags": [
+    "e2e-v080-j-old"
+  ],
+  "metadata": {
+    "note": "e2e-v080-j-old"
+  },
+  "inputs": [],
+  "steps": [
+    {
+      "id": "j-struct",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-v080-j-new"
+      },
+      "input_handoff": {},
+      "expected_output": [
+        "result"
+      ]
+    },
+    {
+      "id": "j-cap",
+      "type": "capability",
+      "required": false,
+      "depends_on": [],
+      "capability": {
+        "query": "e2e-v080-j-old",
+        "compose": false
+      },
+      "input_handoff": {},
+      "expected_output": [
+        "cap"
+      ]
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.j-struct.result"
+    }
+  }
+}
