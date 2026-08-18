@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"suite","name":"e2e-neg-suite","description":"Negative contract dependent suite","members":{"skills":[{"name":"e2e-neg-old"}],"flows":[]}}
