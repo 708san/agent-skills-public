@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"suite","name":"e2e-dg-public-suite","description":"Temporary public Suite dependent.","members":{"skills":[],"flows":[{"name":"e2e-dg-public-flow-target","visibility":"public"}]}}
