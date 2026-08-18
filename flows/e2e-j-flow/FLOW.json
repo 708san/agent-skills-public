@@ -1,1 +1,49 @@
-{"schema_version":1,"kind":"flow","name":"e2e-j-flow","description":"contains e2e-j-source in description","tags":["e2e-j-source","keep-tag"],"metadata":{"note":"e2e-j-source must stay"},"inputs":[],"steps":[{"id":"exact","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-j-source"},"expected_output":["result"],"input_handoff":{}},{"id":"cap","type":"capability","required":false,"depends_on":[],"capability":{"query":"find e2e-j-source capability","compose":false},"expected_output":["cap_result"],"input_handoff":{}}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.exact.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-j-flow",
+  "description": "contains e2e-j-source in description",
+  "tags": [
+    "e2e-j-source",
+    "keep-tag"
+  ],
+  "metadata": {
+    "note": "e2e-j-source must stay"
+  },
+  "inputs": [],
+  "steps": [
+    {
+      "id": "exact",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-j-dest"
+      },
+      "expected_output": [
+        "result"
+      ],
+      "input_handoff": {}
+    },
+    {
+      "id": "cap",
+      "type": "capability",
+      "required": false,
+      "depends_on": [],
+      "capability": {
+        "query": "find e2e-j-source capability",
+        "compose": false
+      },
+      "expected_output": [
+        "cap_result"
+      ],
+      "input_handoff": {}
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.exact.result"
+    }
+  }
+}
