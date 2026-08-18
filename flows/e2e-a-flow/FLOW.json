@@ -1,1 +1,28 @@
-{"schema_version":1,"kind":"flow","name":"e2e-a-flow","description":"A fixture","inputs":[],"steps":[{"id":"s1","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-a-skill-old"},"expected_output":["result"],"input_handoff":{}}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.s1.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-a-flow",
+  "description": "A fixture",
+  "inputs": [],
+  "steps": [
+    {
+      "id": "s1",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-a-skill-new"
+      },
+      "expected_output": [
+        "result"
+      ],
+      "input_handoff": {}
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.s1.result"
+    }
+  }
+}
