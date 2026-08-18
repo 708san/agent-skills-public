@@ -1,1 +1,0 @@
-{"schema_version":1,"kind":"suite","name":"e2e-r1-dependent-suite","description":"Temporary E2E dependent suite","members":{"skills":[{"name":"e2e-r1-source-skill"}],"flows":[]}}
