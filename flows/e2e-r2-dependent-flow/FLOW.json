@@ -1,1 +1,28 @@
-{"schema_version":1,"kind":"flow","name":"e2e-r2-dependent-flow","description":"Temporary E2E fixture","inputs":[],"steps":[{"id":"s1","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-r2-source-skill"},"expected_output":["result"],"input_handoff":{}}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.s1.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-r2-dependent-flow",
+  "description": "Temporary E2E fixture",
+  "inputs": [],
+  "steps": [
+    {
+      "id": "s1",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-r2-destination-skill"
+      },
+      "expected_output": [
+        "result"
+      ],
+      "input_handoff": {}
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.s1.result"
+    }
+  }
+}
