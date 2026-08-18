@@ -3,7 +3,10 @@
   "kind": "flow",
   "name": "e2e-r2-flow",
   "description": "Temporary R2 dependent fixture",
-  "tags": ["e2e", "migration"],
+  "tags": [
+    "e2e",
+    "migration"
+  ],
   "inputs": [],
   "steps": [
     {
@@ -11,13 +14,19 @@
       "type": "exact_skill",
       "required": true,
       "depends_on": [],
-      "skill": {"name": "e2e-r2-old-skill"},
+      "skill": {
+        "name": "e2e-r2-new-skill"
+      },
       "input_handoff": {},
-      "expected_output": ["result"]
+      "expected_output": [
+        "result"
+      ]
     }
   ],
   "completion": {
     "required_steps": "all_required",
-    "outputs": {"result": "steps.use-source.result"}
+    "outputs": {
+      "result": "steps.use-source.result"
+    }
   }
 }
