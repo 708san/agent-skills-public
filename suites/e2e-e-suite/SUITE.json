@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"suite","name":"e2e-e-suite","description":"E suite","tags":["e2e"],"members":{"skills":[],"flows":[{"name":"e2e-e-old-flow"}]}}
