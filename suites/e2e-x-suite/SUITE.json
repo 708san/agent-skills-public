@@ -1,1 +1,17 @@
-{"schema_version":1,"kind":"suite","name":"e2e-x-suite","description":"Contract dependent Suite","tags":["e2e"],"members":{"skills":[{"name":"e2e-x-old"}],"flows":[]}}
+{
+  "schema_version": 1,
+  "kind": "suite",
+  "name": "e2e-x-suite",
+  "description": "Contract dependent Suite",
+  "tags": [
+    "e2e"
+  ],
+  "members": {
+    "skills": [
+      {
+        "name": "e2e-x-new"
+      }
+    ],
+    "flows": []
+  }
+}
