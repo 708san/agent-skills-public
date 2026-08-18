@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"flow","name":"e2e-m-public-flow","description":"M public dependent","inputs":[],"steps":[{"id":"s1","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-m-source"},"expected_output":["result"],"input_handoff":{}}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.s1.result"}}}
