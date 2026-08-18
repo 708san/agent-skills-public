@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"flow","name":"e2e-f-public-new-flow","description":"F public destination Flow","tags":["e2e"],"inputs":[],"steps":[{"id":"f","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-f-public-skill"},"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.f.result"}}}
