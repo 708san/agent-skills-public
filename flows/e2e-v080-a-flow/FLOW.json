@@ -1,1 +1,31 @@
-{"schema_version":1,"kind":"flow","name":"e2e-v080-a-flow","description":"A dependent","tags":["e2e"],"inputs":[],"steps":[{"id":"a","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-v080-a-old"},"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.a.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-v080-a-flow",
+  "description": "A dependent",
+  "tags": [
+    "e2e"
+  ],
+  "inputs": [],
+  "steps": [
+    {
+      "id": "a",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-v080-a-new"
+      },
+      "input_handoff": {},
+      "expected_output": [
+        "result"
+      ]
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.a.result"
+    }
+  }
+}
