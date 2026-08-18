@@ -1,1 +1,17 @@
-{"schema_version":1,"kind":"suite","name":"e2e-v080-e-suite","description":"E suite","tags":["e2e"],"members":{"skills":[],"flows":[{"name":"e2e-v080-e-old-flow"}]}}
+{
+  "schema_version": 1,
+  "kind": "suite",
+  "name": "e2e-v080-e-suite",
+  "description": "E suite",
+  "tags": [
+    "e2e"
+  ],
+  "members": {
+    "skills": [],
+    "flows": [
+      {
+        "name": "e2e-v080-e-new-flow"
+      }
+    ]
+  }
+}
