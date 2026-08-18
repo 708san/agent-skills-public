@@ -1,1 +1,31 @@
-{"schema_version":1,"kind":"flow","name":"e2e-x-flow","description":"Contract dependent Flow","tags":["e2e"],"inputs":[],"steps":[{"id":"x","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-x-old"},"input_handoff":{},"expected_output":["result"]}],"completion":{"required_steps":"all_required","outputs":{"result":"steps.x.result"}}}
+{
+  "schema_version": 1,
+  "kind": "flow",
+  "name": "e2e-x-flow",
+  "description": "Contract dependent Flow",
+  "tags": [
+    "e2e"
+  ],
+  "inputs": [],
+  "steps": [
+    {
+      "id": "x",
+      "type": "exact_skill",
+      "required": true,
+      "depends_on": [],
+      "skill": {
+        "name": "e2e-x-new"
+      },
+      "input_handoff": {},
+      "expected_output": [
+        "result"
+      ]
+    }
+  ],
+  "completion": {
+    "required_steps": "all_required",
+    "outputs": {
+      "result": "steps.x.result"
+    }
+  }
+}
