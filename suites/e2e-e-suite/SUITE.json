@@ -1,1 +1,14 @@
-{"schema_version":1,"kind":"suite","name":"e2e-e-suite","description":"E dependent suite","members":{"skills":[],"flows":[{"name":"e2e-e-old"}]}}
+{
+  "schema_version": 1,
+  "kind": "suite",
+  "name": "e2e-e-suite",
+  "description": "E dependent suite",
+  "members": {
+    "skills": [],
+    "flows": [
+      {
+        "name": "e2e-e-new"
+      }
+    ]
+  }
+}
