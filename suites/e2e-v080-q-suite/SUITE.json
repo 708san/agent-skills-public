@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"suite","name":"e2e-v080-q-suite","description":"e2e-v080-regression unique suite","tags":["e2e-v080-regression"],"members":{"skills":[],"flows":[{"name":"e2e-v080-q-flow"}]}}
