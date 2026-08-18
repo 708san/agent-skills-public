@@ -1,0 +1,1 @@
+{"schema_version":1,"kind":"flow","name":"e2e-neg-flow","description":"Negative contract dependent flow","inputs":[],"steps":[{"id":"neg","type":"exact_skill","required":true,"depends_on":[],"skill":{"name":"e2e-neg-old"},"input_handoff":{},"expected_output":["out"]}],"completion":{"required_steps":"all_required","outputs":{"out":"steps.neg.out"}}}
